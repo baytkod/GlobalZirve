@@ -1,0 +1,120 @@
+.custom-border {
+    height: 85%;
+    border: 10px solid;
+    border-image-source: linear-gradient(
+        to right,
+        red 10%,
+        orange 10%,
+        yellow 25%,
+        green 25%,
+        blue 40%,
+        purple 40%,
+        red 55%,
+        orange 55%,
+        yellow 70%,
+        green 70%,
+        blue 85%,
+        purple 85%
+    );
+    margin: 10px;
+    border-image-slice: 1;
+    position: relative;
+}
+
+.banner-text {
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.custom-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 600px;
+    position: relative;
+}
+
+.custom-banner-left {
+    flex: 1;
+    background: url("../images/SolOklar.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+.custom-banner-right {
+    flex: 1;
+    background: url("../images/sagoklar.svg") 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.custom-banner img.banner-logo {
+    width: 220px;
+}
+
+.custom-banner h2,
+.custom-banner p {
+    color: #fff;
+}
+.hero4-section-area {
+    height: 100vh;
+    padding: 0 !important;
+    padding-top: 130px !important;
+}
+.others4-section-area {
+    margin-top: 0;
+}
+
+.nice-select {
+    height: auto;
+    line-height: auto;
+}
+
+.contact4-section-area {
+    position: relative;
+    z-index: 1;
+    background: #1e3250 !important;
+}
+
+.logo-img {
+    width: 250px;
+    height: 60px;
+}
+.homepage4-body .header-area.homepage4 .header-elements .btn-area ul {
+    margin: 0 !important;
+}
+.homepage4-body .header-area.homepage4 .header-elements .main-menu ul li a {
+    padding: 0 10px;
+}
+.mobile-header.mobile-haeder4 .mobile-logo {
+    width: 220px;
+    height: 55px;
+}
+.homepage4-body .header-area.homepage4 .header-elements .site-logo img {
+    width: 220px;
+    height: 55px;
+}
+
+.mobile-sidebar.mobile-sidebar4 .logos {
+    width: 220px;
+    height: 55px;
+}
+.footer4-sertion-area .footer-logo-area img {
+    width: 240px;
+    height: 55px;
+}
